@@ -9,7 +9,7 @@ return (
         <div className='align-top inline-block'>
             <img className='h-10 rounded-3xl inline mr-5' src={props.profilePicture} alt="" />
         </div>
-        <div className='inline-block h-full bg-green-300'>
+        <div className='inline-block h-full'>
             <h4 className=''>{props.info}</h4>
             <span className='text-gray-400'>Updated 1 day ago</span>
         </div>
